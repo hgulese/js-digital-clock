@@ -1,0 +1,53 @@
+* {
+    background: #202020;
+    color: #fff;
+}
+
+#text {
+    width: 600px;
+    height: 80px;
+    margin: 80px auto 0 auto;
+    font-size: 60px;
+    text-align: center;
+}
+
+#clock{
+    width: 650px;
+    height: 250px;
+    margin: 60px auto 0 auto;
+    text-align: center;
+    font-size: 100px;
+    color: #202020;
+}
+
+.fl-left {
+    float: left;
+    border-radius: 15px;
+}
+
+#hour {
+    width: 200px;
+    height: 187px;
+    margin-right: 25px;
+    background-color: #fff;
+    color: #202020;
+    padding: 63px 0 0 0;
+
+}
+
+#minute {
+    height: 187px;
+    width: 200px;
+    margin-right: 25px;
+    background-color: #fff;
+    color: #202020;
+    padding: 63px 0 0 0;
+}
+
+#second {
+    height: 187px;
+    width: 200px;
+    background-color: #fff;
+    color: #202020;
+    padding: 63px 0 0 0;
+}
