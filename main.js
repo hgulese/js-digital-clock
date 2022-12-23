@@ -27,3 +27,5 @@ setInterval(function () {
 }, 1000);
 
 // github.com/hgulese
+// twitter.com/huseyinilkergls
+// mail: devhgulese@gmail.com
