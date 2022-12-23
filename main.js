@@ -1,7 +1,12 @@
+
 function getTime() {
+
     var now = new Date();
+
     var hour = now.getHours();
+
     var minute = now.getMinutes();
+
     var second = now.getSeconds();
 
     (hour < 10) ? document.getElementById("hour").innerText = "0" + hour :
@@ -12,8 +17,13 @@ function getTime() {
 
     (second < 10) ? document.getElementById("second").innerText = "0" + second :
         document.getElementById("second").innerText = second;
+
 }
+
 
 setInterval(function () {
     getTime();
+
 }, 1000);
+
+// github.com/hgulese
